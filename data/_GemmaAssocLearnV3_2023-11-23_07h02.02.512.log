@@ -1,0 +1,497 @@
+13.1232 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001E08907AC40>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001E08907ABE0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001E08907AA00>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001E0895BFEE0>, multiSample=False, name='window1', numSamples=2, pos=(510, 240), screen=0, size=array([900, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.1234 	EXP 	window1: mouseVisible = True
+13.1235 	EXP 	window1: backgroundImage = ''
+13.1235 	EXP 	window1: backgroundFit = 'none'
+13.1285 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+13.1286 	EXP 	window1: recordFrameIntervals = False
+13.2885 	EXP 	window1: recordFrameIntervals = True
+13.4714 	EXP 	Screen (0) actual frame rate measured at 60.16Hz
+13.4715 	EXP 	window1: recordFrameIntervals = False
+13.4717 	EXP 	window1: mouseVisible = True
+13.6725 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+16.5698 	EXP 	GemmaAssocLearnV3: status = STARTED
+16.5702 	EXP 	window1: mouseVisible = True
+16.7572 	EXP 	Created intro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='intro_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.2)
+16.7573 	EXP 	window1: mouseVisible = True
+16.7584 	EXP 	Created instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructions_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.3)
+16.7585 	EXP 	window1: mouseVisible = True
+16.7600 	EXP 	Created practice_fixation_cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([255,   0,   0]), fillColorSpace='rgb', fillRGB=array([255,   0,   0]), interpolate=True, lineColor=array([1., 0., 0.]), lineColorSpace='rgb', lineRGB=array([255,   0,   0]), lineWidth=1, name='practice_fixation_cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.06, 0.1 ]), units='norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.7601 	EXP 	window1: mouseVisible = True
+16.7612 	EXP 	Created practice_target_label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='practice_target_label', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.7612 	EXP 	window1: mouseVisible = True
+16.7647 	EXP 	Created practice_target_plus = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='practice_target_plus', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='norm', win=Window(...), wrapWidth=1)
+16.7648 	EXP 	window1: mouseVisible = True
+16.7794 	EXP 	Created practice_target_shape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='practice_target_shape', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), size=array([0.18, 0.3 ]), texRes=128, units='norm', win=Window(...))
+16.7796 	EXP 	window1: mouseVisible = True
+16.7901 	EXP 	Created practice_target_label_valence = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='practice_target_label_valence', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.2, 0.4]), texRes=128, units='norm', win=Window(...))
+16.7903 	EXP 	window1: mouseVisible = True
+16.7918 	EXP 	Created ITI_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ITI_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.7919 	EXP 	window1: mouseVisible = True
+16.7931 	EXP 	Created practice_feedback_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='practice_feedback_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.7932 	EXP 	window1: mouseVisible = True
+16.8022 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Starting the moving window', units='norm', win=Window(...), wrapWidth=1)
+16.8023 	EXP 	window1: mouseVisible = True
+16.8034 	EXP 	Created practice_target_label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='practice_target_label', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.8035 	EXP 	window1: mouseVisible = True
+16.8058 	EXP 	Created practice_target_plus = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='practice_target_plus', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='norm', win=Window(...), wrapWidth=1)
+16.8060 	EXP 	window1: mouseVisible = True
+16.8149 	EXP 	Created practice_target_shape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='practice_target_shape', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), size=array([0.18, 0.3 ]), texRes=128, units='norm', win=Window(...))
+16.8150 	EXP 	window1: mouseVisible = True
+16.8238 	EXP 	Created practice_target_label_valence = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='practice_target_label_valence', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.2, 0.4]), texRes=128, units='norm', win=Window(...))
+16.8239 	EXP 	window1: mouseVisible = True
+16.8255 	EXP 	Created ITI_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ITI_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.8256 	EXP 	window1: mouseVisible = True
+16.8266 	EXP 	Created practice_feedback_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='practice_feedback_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.8267 	EXP 	window1: mouseVisible = True
+16.8277 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.8278 	EXP 	window1: mouseVisible = True
+16.8288 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.8288 	EXP 	window1: mouseVisible = True
+16.8298 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.8299 	EXP 	window1: mouseVisible = True
+16.8309 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.8310 	EXP 	window1: mouseVisible = True
+16.8481 	EXP 	Created self_practice_end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='self_practice_end_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+16.8483 	EXP 	window1: mouseVisible = True
+16.8498 	EXP 	Created self_trial_fixation_cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([255,   0,   0]), fillColorSpace='rgb', fillRGB=array([255,   0,   0]), interpolate=True, lineColor=array([1., 0., 0.]), lineColorSpace='rgb', lineRGB=array([255,   0,   0]), lineWidth=1, name='self_trial_fixation_cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.06, 0.1 ]), units='norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.8499 	EXP 	window1: mouseVisible = True
+16.8510 	EXP 	Created trial_target_label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='trial_target_label', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.8510 	EXP 	window1: mouseVisible = True
+16.8533 	EXP 	Created trial_target_plus = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='trial_target_plus', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='norm', win=Window(...), wrapWidth=1)
+16.8534 	EXP 	window1: mouseVisible = True
+16.8621 	EXP 	Created trial_target_shape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='trial_target_shape', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), size=array([0.18, 0.3 ]), texRes=128, units='norm', win=Window(...))
+16.8623 	EXP 	window1: mouseVisible = True
+16.8707 	EXP 	Created trial_target_label_valence = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='trial_target_label_valence', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.2, 0.4]), texRes=128, units='norm', win=Window(...))
+16.8708 	EXP 	window1: mouseVisible = True
+16.8724 	EXP 	Created self_trial_ITI_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='self_trial_ITI_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.8725 	EXP 	window1: mouseVisible = True
+16.8735 	EXP 	Created self_trial_feedback_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='self_trial_feedback_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.8736 	EXP 	window1: mouseVisible = True
+16.8745 	EXP 	Created trial_break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='trial_break_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+16.8746 	EXP 	window1: mouseVisible = True
+16.8793 	EXP 	Created trials_end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='trials_end_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+16.8794 	EXP 	window1: mouseVisible = True
+16.8828 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Well done! You have finished the task!', units='norm', win=Window(...), wrapWidth=1)
+0.0283 	EXP 	Imported KeyboardCommand.xlsx as conditions, 1 conditions, 2 params
+0.0300 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+0.0306 	EXP 	New trial (rep=0, index=0): {'Yes': 'm', 'No': 'n'}
+0.0500 	EXP 	intro_text: autoDraw = True
+1.1758 	EXP 	Imported GroupA.xlsx as conditions, 3 conditions, 1 params
+1.1763 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+1.1767 	EXP 	New trial (rep=0, index=0): {'Task': 'Self'}
+1.2013 	EXP 	Imported SelfTask.xlsx as conditions, 1 conditions, 14 params
+1.2017 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+1.2019 	EXP 	New trial (rep=0, index=0): {'Label1': 'T', 'Label2': 'S', 'Label3': 'C', 'Self_shape': 'Triangle', 'Friend_shape': 'Square', 'Stranger_shape': 'Circle', 'intro_label1': 'yourself', 'intro_label2': 'your friend', 'intro_label3': 'a stranger', 'Shape1': 'self', 'Shape2': 'friend', 'Shape3': 'stranger', 'intro_label_type1': 'words', 'intro_label_type2': 'person'}
+1.2244 	DATA 	Keypress: space
+1.2319 	EXP 	intro_text: autoDraw = False
+1.2319 	EXP 	instructions_text: height = 0.1
+1.2319 	EXP 	instructions_text: height = 0.1
+1.2319 	EXP 	instructions_text: height = 0.1
+1.2319 	EXP 	instructions_text: text = "In this version of the task you will learn to associate the Triangle with yourself, the Square with your friend, and the Circle with a stranger.\n\nTry to remember these! \n\nYou will be presented with different combinations of these shapes and words. Your task is to judge whether the presented shape and person match with what we have told you above. \n\nPress 'm' if the shape and person match, and 'n' if they do not match. \n \nPress any key to continue"
+1.2319 	EXP 	instructions_text: autoDraw = True
+3.1847 	DATA 	Keypress: space
+3.1968 	EXP 	instructions_text: autoDraw = False
+3.1968 	EXP 	practice_fixation_cross: autoDraw = True
+5.2337 	EXP 	Imported SelfTrialStim.xlsx as conditions, 12 conditions, 4 params
+5.2345 	EXP 	Created sequence: random, trialTypes=12, nReps=1, seed=None
+5.2348 	EXP 	New trial (rep=0, index=0): {'Label': 'Self', 'Target': 'Self', 'Shape': 'Self', 'CorrectAnswer': 'Yes'}
+5.3289 	EXP 	practice_fixation_cross: autoDraw = False
+5.3289 	EXP 	practice_target_label: height = 0.1
+5.3289 	EXP 	practice_target_label: height = 0.1
+5.3289 	EXP 	practice_target_label: height = 0.1
+5.3289 	EXP 	practice_target_label: text = 'Self'
+5.3289 	EXP 	practice_target_shape: image = 'Stimuli/T.bmp'
+5.3289 	EXP 	practice_target_label_valence: texRes = 128
+5.3289 	EXP 	practice_target_label_valence: image = 'Stimuli/Empty.bmp'
+5.3289 	EXP 	practice_target_label: autoDraw = True
+5.3289 	EXP 	practice_target_plus: autoDraw = True
+5.3289 	EXP 	practice_target_shape: autoDraw = True
+5.3289 	EXP 	practice_target_label_valence: autoDraw = True
+5.5933 	EXP 	practice_target_label: autoDraw = False
+5.5933 	EXP 	practice_target_plus: autoDraw = False
+5.5933 	EXP 	practice_target_shape: autoDraw = False
+5.5933 	EXP 	practice_target_label_valence: autoDraw = False
+5.7974 	DATA 	Keypress: m
+5.8095 	EXP 	practice_target_label: autoDraw = False
+5.8095 	EXP 	practice_target_plus: autoDraw = False
+5.8095 	EXP 	practice_target_shape: autoDraw = False
+5.8095 	EXP 	practice_target_label_valence: autoDraw = False
+5.8095 	EXP 	ITI_text: autoDraw = True
+6.7744 	EXP 	ITI_text: autoDraw = False
+6.7744 	EXP 	ITI_text: autoDraw = False
+6.7744 	EXP 	practice_feedback_text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+6.7744 	EXP 	practice_feedback_text: height = 0.1
+6.7744 	EXP 	practice_feedback_text: height = 0.1
+6.7744 	EXP 	practice_feedback_text: height = 0.1
+6.7744 	EXP 	practice_feedback_text: text = 'Correct!'
+6.7744 	EXP 	practice_feedback_text: autoDraw = True
+7.2601 	EXP 	New trial (rep=0, index=1): {'Label': 'Stranger', 'Target': 'Stranger', 'Shape': 'Stranger', 'CorrectAnswer': 'Yes'}
+7.3239 	EXP 	practice_feedback_text: autoDraw = False
+7.3239 	EXP 	practice_feedback_text: autoDraw = False
+7.3239 	EXP 	practice_target_label: height = 0.1
+7.3239 	EXP 	practice_target_label: height = 0.1
+7.3239 	EXP 	practice_target_label: height = 0.1
+7.3239 	EXP 	practice_target_label: text = 'Stranger'
+7.3239 	EXP 	practice_target_shape: image = 'Stimuli/C.bmp'
+7.3239 	EXP 	practice_target_label_valence: texRes = 128
+7.3239 	EXP 	practice_target_label_valence: image = 'Stimuli/Empty.bmp'
+7.3239 	EXP 	practice_target_label: autoDraw = True
+7.3239 	EXP 	practice_target_plus: autoDraw = True
+7.3239 	EXP 	practice_target_shape: autoDraw = True
+7.3239 	EXP 	practice_target_label_valence: autoDraw = True
+7.5752 	EXP 	practice_target_label: autoDraw = False
+7.5752 	EXP 	practice_target_plus: autoDraw = False
+7.5752 	EXP 	practice_target_shape: autoDraw = False
+7.5752 	EXP 	practice_target_label_valence: autoDraw = False
+7.8265 	DATA 	Keypress: n
+7.8397 	EXP 	practice_target_label: autoDraw = False
+7.8397 	EXP 	practice_target_plus: autoDraw = False
+7.8397 	EXP 	practice_target_shape: autoDraw = False
+7.8397 	EXP 	practice_target_label_valence: autoDraw = False
+7.8397 	EXP 	ITI_text: autoDraw = True
+9.0228 	EXP 	ITI_text: autoDraw = False
+9.0228 	EXP 	ITI_text: autoDraw = False
+9.0228 	EXP 	practice_feedback_text: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+9.0228 	EXP 	practice_feedback_text: height = 0.1
+9.0228 	EXP 	practice_feedback_text: height = 0.1
+9.0228 	EXP 	practice_feedback_text: height = 0.1
+9.0228 	EXP 	practice_feedback_text: text = 'Incorrect!'
+9.0228 	EXP 	practice_feedback_text: autoDraw = True
+9.4100 	DATA 	Keypress: m
+9.5228 	EXP 	New trial (rep=0, index=2): {'Label': 'Friend', 'Target': 'Self', 'Shape': 'Self', 'CorrectAnswer': 'No'}
+9.5709 	EXP 	practice_feedback_text: autoDraw = False
+9.5709 	EXP 	practice_target_label: height = 0.1
+9.5709 	EXP 	practice_target_label: height = 0.1
+9.5709 	EXP 	practice_target_label: height = 0.1
+9.5709 	EXP 	practice_target_label: text = 'Friend'
+9.5709 	EXP 	practice_target_shape: image = 'Stimuli/T.bmp'
+9.5709 	EXP 	practice_target_label_valence: texRes = 128
+9.5709 	EXP 	practice_target_label_valence: image = 'Stimuli/Empty.bmp'
+9.5709 	EXP 	practice_target_label: autoDraw = True
+9.5709 	EXP 	practice_target_plus: autoDraw = True
+9.5709 	EXP 	practice_target_shape: autoDraw = True
+9.5709 	EXP 	practice_target_label_valence: autoDraw = True
+9.8205 	EXP 	practice_target_label: autoDraw = False
+9.8205 	EXP 	practice_target_plus: autoDraw = False
+9.8205 	EXP 	practice_target_shape: autoDraw = False
+9.8205 	EXP 	practice_target_label_valence: autoDraw = False
+10.0599 	DATA 	Keypress: m
+10.0703 	EXP 	practice_target_label: autoDraw = False
+10.0703 	EXP 	practice_target_plus: autoDraw = False
+10.0703 	EXP 	practice_target_shape: autoDraw = False
+10.0703 	EXP 	practice_target_label_valence: autoDraw = False
+10.0703 	EXP 	ITI_text: autoDraw = True
+11.2688 	EXP 	ITI_text: autoDraw = False
+11.2688 	EXP 	ITI_text: autoDraw = False
+11.2688 	EXP 	practice_feedback_text: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+11.2688 	EXP 	practice_feedback_text: text = 'Incorrect!'
+11.2688 	EXP 	practice_feedback_text: autoDraw = True
+11.7544 	EXP 	New trial (rep=0, index=3): {'Label': 'Stranger', 'Target': 'Friend', 'Shape': 'Friend', 'CorrectAnswer': 'No'}
+11.8181 	EXP 	practice_feedback_text: autoDraw = False
+11.8181 	EXP 	practice_feedback_text: autoDraw = False
+11.8181 	EXP 	practice_target_label: height = 0.1
+11.8181 	EXP 	practice_target_label: height = 0.1
+11.8181 	EXP 	practice_target_label: height = 0.1
+11.8181 	EXP 	practice_target_label: text = 'Stranger'
+11.8181 	EXP 	practice_target_shape: image = 'Stimuli/S.bmp'
+11.8181 	EXP 	practice_target_label_valence: texRes = 128
+11.8181 	EXP 	practice_target_label_valence: image = 'Stimuli/Empty.bmp'
+11.8181 	EXP 	practice_target_label: autoDraw = True
+11.8181 	EXP 	practice_target_plus: autoDraw = True
+11.8181 	EXP 	practice_target_shape: autoDraw = True
+11.8181 	EXP 	practice_target_label_valence: autoDraw = True
+12.0680 	EXP 	practice_target_label: autoDraw = False
+12.0680 	EXP 	practice_target_plus: autoDraw = False
+12.0680 	EXP 	practice_target_shape: autoDraw = False
+12.0680 	EXP 	practice_target_label_valence: autoDraw = False
+12.3251 	DATA 	Keypress: n
+12.3343 	EXP 	practice_target_label: autoDraw = False
+12.3343 	EXP 	practice_target_plus: autoDraw = False
+12.3343 	EXP 	practice_target_shape: autoDraw = False
+12.3343 	EXP 	practice_target_label_valence: autoDraw = False
+12.3343 	EXP 	ITI_text: autoDraw = True
+13.4827 	EXP 	ITI_text: autoDraw = False
+13.4827 	EXP 	ITI_text: autoDraw = False
+13.4827 	EXP 	practice_feedback_text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+13.4827 	EXP 	practice_feedback_text: height = 0.1
+13.4827 	EXP 	practice_feedback_text: height = 0.1
+13.4827 	EXP 	practice_feedback_text: height = 0.1
+13.4827 	EXP 	practice_feedback_text: text = 'Correct!'
+13.4827 	EXP 	practice_feedback_text: autoDraw = True
+13.9669 	EXP 	New trial (rep=0, index=4): {'Label': 'Friend', 'Target': 'Friend', 'Shape': 'Friend', 'CorrectAnswer': 'Yes'}
+14.0151 	EXP 	practice_feedback_text: autoDraw = False
+14.0151 	EXP 	practice_feedback_text: autoDraw = False
+14.0151 	EXP 	practice_target_label: height = 0.1
+14.0151 	EXP 	practice_target_label: height = 0.1
+14.0151 	EXP 	practice_target_label: height = 0.1
+14.0151 	EXP 	practice_target_label: text = 'Friend'
+14.0151 	EXP 	practice_target_shape: image = 'Stimuli/S.bmp'
+14.0151 	EXP 	practice_target_label_valence: texRes = 128
+14.0151 	EXP 	practice_target_label_valence: image = 'Stimuli/Empty.bmp'
+14.0151 	EXP 	practice_target_label: autoDraw = True
+14.0151 	EXP 	practice_target_plus: autoDraw = True
+14.0151 	EXP 	practice_target_shape: autoDraw = True
+14.0151 	EXP 	practice_target_label_valence: autoDraw = True
+14.2646 	EXP 	practice_target_label: autoDraw = False
+14.2646 	EXP 	practice_target_plus: autoDraw = False
+14.2646 	EXP 	practice_target_shape: autoDraw = False
+14.2646 	EXP 	practice_target_label_valence: autoDraw = False
+14.4575 	DATA 	Keypress: m
+14.4650 	EXP 	practice_target_label: autoDraw = False
+14.4650 	EXP 	practice_target_plus: autoDraw = False
+14.4650 	EXP 	practice_target_shape: autoDraw = False
+14.4650 	EXP 	practice_target_label_valence: autoDraw = False
+14.4650 	EXP 	ITI_text: autoDraw = True
+15.5130 	EXP 	ITI_text: autoDraw = False
+15.5130 	EXP 	ITI_text: autoDraw = False
+15.5130 	EXP 	practice_feedback_text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+15.5130 	EXP 	practice_feedback_text: text = 'Correct!'
+15.5130 	EXP 	practice_feedback_text: autoDraw = True
+15.9988 	EXP 	New trial (rep=0, index=5): {'Label': 'Friend', 'Target': 'Stranger', 'Shape': 'Stranger', 'CorrectAnswer': 'No'}
+16.0286 	EXP 	practice_feedback_text: autoDraw = False
+16.0286 	EXP 	practice_feedback_text: autoDraw = False
+16.0286 	EXP 	practice_target_label: text = 'Friend'
+16.0286 	EXP 	practice_target_shape: image = 'Stimuli/C.bmp'
+16.0286 	EXP 	practice_target_label_valence: texRes = 128
+16.0286 	EXP 	practice_target_label_valence: image = 'Stimuli/Empty.bmp'
+16.0286 	EXP 	practice_target_label: autoDraw = True
+16.0286 	EXP 	practice_target_plus: autoDraw = True
+16.0286 	EXP 	practice_target_shape: autoDraw = True
+16.0286 	EXP 	practice_target_label_valence: autoDraw = True
+16.2782 	EXP 	practice_target_label: autoDraw = False
+16.2782 	EXP 	practice_target_plus: autoDraw = False
+16.2782 	EXP 	practice_target_shape: autoDraw = False
+16.2782 	EXP 	practice_target_label_valence: autoDraw = False
+16.4308 	DATA 	Keypress: n
+16.4451 	EXP 	practice_target_label: autoDraw = False
+16.4451 	EXP 	practice_target_plus: autoDraw = False
+16.4451 	EXP 	practice_target_shape: autoDraw = False
+16.4451 	EXP 	practice_target_label_valence: autoDraw = False
+16.4451 	EXP 	ITI_text: autoDraw = True
+17.5602 	EXP 	ITI_text: autoDraw = False
+17.5602 	EXP 	ITI_text: autoDraw = False
+17.5602 	EXP 	practice_feedback_text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+17.5602 	EXP 	practice_feedback_text: text = 'Correct!'
+17.5602 	EXP 	practice_feedback_text: autoDraw = True
+18.0434 	EXP 	New trial (rep=0, index=6): {'Label': 'Self', 'Target': 'Stranger', 'Shape': 'Stranger', 'CorrectAnswer': 'No'}
+18.0765 	EXP 	practice_feedback_text: autoDraw = False
+18.0765 	EXP 	practice_feedback_text: autoDraw = False
+18.0765 	EXP 	practice_target_label: height = 0.1
+18.0765 	EXP 	practice_target_label: height = 0.1
+18.0765 	EXP 	practice_target_label: height = 0.1
+18.0765 	EXP 	practice_target_label: text = 'Self'
+18.0765 	EXP 	practice_target_shape: image = 'Stimuli/C.bmp'
+18.0765 	EXP 	practice_target_label_valence: texRes = 128
+18.0765 	EXP 	practice_target_label_valence: image = 'Stimuli/Empty.bmp'
+18.0765 	EXP 	practice_target_label: autoDraw = True
+18.0765 	EXP 	practice_target_plus: autoDraw = True
+18.0765 	EXP 	practice_target_shape: autoDraw = True
+18.0765 	EXP 	practice_target_label_valence: autoDraw = True
+18.2965 	DATA 	Keypress: m
+18.3092 	EXP 	practice_target_label: autoDraw = False
+18.3092 	EXP 	practice_target_plus: autoDraw = False
+18.3092 	EXP 	practice_target_shape: autoDraw = False
+18.3092 	EXP 	practice_target_label_valence: autoDraw = False
+18.3092 	EXP 	ITI_text: autoDraw = True
+19.4412 	EXP 	ITI_text: autoDraw = False
+19.4412 	EXP 	ITI_text: autoDraw = False
+19.4412 	EXP 	practice_feedback_text: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+19.4412 	EXP 	practice_feedback_text: height = 0.1
+19.4412 	EXP 	practice_feedback_text: height = 0.1
+19.4412 	EXP 	practice_feedback_text: height = 0.1
+19.4412 	EXP 	practice_feedback_text: text = 'Incorrect!'
+19.4412 	EXP 	practice_feedback_text: autoDraw = True
+19.9253 	EXP 	New trial (rep=0, index=7): {'Label': 'Friend', 'Target': 'Friend', 'Shape': 'Friend', 'CorrectAnswer': 'Yes'}
+19.9572 	EXP 	practice_feedback_text: autoDraw = False
+19.9572 	EXP 	practice_feedback_text: autoDraw = False
+19.9572 	EXP 	practice_target_label: height = 0.1
+19.9572 	EXP 	practice_target_label: height = 0.1
+19.9572 	EXP 	practice_target_label: height = 0.1
+19.9572 	EXP 	practice_target_label: text = 'Friend'
+19.9572 	EXP 	practice_target_shape: image = 'Stimuli/S.bmp'
+19.9572 	EXP 	practice_target_label_valence: texRes = 128
+19.9572 	EXP 	practice_target_label_valence: image = 'Stimuli/Empty.bmp'
+19.9572 	EXP 	practice_target_label: autoDraw = True
+19.9572 	EXP 	practice_target_plus: autoDraw = True
+19.9572 	EXP 	practice_target_shape: autoDraw = True
+19.9572 	EXP 	practice_target_label_valence: autoDraw = True
+20.2070 	EXP 	practice_target_label: autoDraw = False
+20.2070 	EXP 	practice_target_plus: autoDraw = False
+20.2070 	EXP 	practice_target_shape: autoDraw = False
+20.2070 	EXP 	practice_target_label_valence: autoDraw = False
+20.3655 	DATA 	Keypress: n
+20.3743 	EXP 	practice_target_label: autoDraw = False
+20.3743 	EXP 	practice_target_plus: autoDraw = False
+20.3743 	EXP 	practice_target_shape: autoDraw = False
+20.3743 	EXP 	practice_target_label_valence: autoDraw = False
+20.3743 	EXP 	ITI_text: autoDraw = True
+21.5220 	EXP 	ITI_text: autoDraw = False
+21.5220 	EXP 	ITI_text: autoDraw = False
+21.5220 	EXP 	practice_feedback_text: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+21.5220 	EXP 	practice_feedback_text: text = 'Incorrect!'
+21.5220 	EXP 	practice_feedback_text: autoDraw = True
+22.0059 	EXP 	New trial (rep=0, index=8): {'Label': 'Stranger', 'Target': 'Stranger', 'Shape': 'Stranger', 'CorrectAnswer': 'Yes'}
+22.0376 	EXP 	practice_feedback_text: autoDraw = False
+22.0376 	EXP 	practice_feedback_text: autoDraw = False
+22.0376 	EXP 	practice_target_label: height = 0.1
+22.0376 	EXP 	practice_target_label: height = 0.1
+22.0376 	EXP 	practice_target_label: height = 0.1
+22.0376 	EXP 	practice_target_label: text = 'Stranger'
+22.0376 	EXP 	practice_target_shape: image = 'Stimuli/C.bmp'
+22.0376 	EXP 	practice_target_label_valence: texRes = 128
+22.0376 	EXP 	practice_target_label_valence: image = 'Stimuli/Empty.bmp'
+22.0376 	EXP 	practice_target_label: autoDraw = True
+22.0376 	EXP 	practice_target_plus: autoDraw = True
+22.0376 	EXP 	practice_target_shape: autoDraw = True
+22.0376 	EXP 	practice_target_label_valence: autoDraw = True
+22.0570 	DATA 	Keypress: m
+22.0711 	EXP 	practice_target_label: autoDraw = False
+22.0711 	EXP 	practice_target_plus: autoDraw = False
+22.0711 	EXP 	practice_target_shape: autoDraw = False
+22.0711 	EXP 	practice_target_label_valence: autoDraw = False
+22.0711 	EXP 	ITI_text: autoDraw = True
+23.3363 	EXP 	ITI_text: autoDraw = False
+23.3363 	EXP 	ITI_text: autoDraw = False
+23.3363 	EXP 	practice_feedback_text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+23.3363 	EXP 	practice_feedback_text: height = 0.1
+23.3363 	EXP 	practice_feedback_text: height = 0.1
+23.3363 	EXP 	practice_feedback_text: height = 0.1
+23.3363 	EXP 	practice_feedback_text: text = 'Correct!'
+23.3363 	EXP 	practice_feedback_text: autoDraw = True
+23.8232 	EXP 	New trial (rep=0, index=9): {'Label': 'Stranger', 'Target': 'Self', 'Shape': 'Self', 'CorrectAnswer': 'No'}
+23.8688 	EXP 	practice_feedback_text: autoDraw = False
+23.8688 	EXP 	practice_feedback_text: autoDraw = False
+23.8688 	EXP 	practice_target_label: text = 'Stranger'
+23.8688 	EXP 	practice_target_shape: image = 'Stimuli/T.bmp'
+23.8688 	EXP 	practice_target_label_valence: texRes = 128
+23.8688 	EXP 	practice_target_label_valence: image = 'Stimuli/Empty.bmp'
+23.8688 	EXP 	practice_target_label: autoDraw = True
+23.8688 	EXP 	practice_target_plus: autoDraw = True
+23.8688 	EXP 	practice_target_shape: autoDraw = True
+23.8688 	EXP 	practice_target_label_valence: autoDraw = True
+24.1184 	EXP 	practice_target_label: autoDraw = False
+24.1184 	EXP 	practice_target_plus: autoDraw = False
+24.1184 	EXP 	practice_target_shape: autoDraw = False
+24.1184 	EXP 	practice_target_label_valence: autoDraw = False
+24.2248 	DATA 	Keypress: m
+24.2357 	EXP 	practice_target_label: autoDraw = False
+24.2357 	EXP 	practice_target_plus: autoDraw = False
+24.2357 	EXP 	practice_target_shape: autoDraw = False
+24.2357 	EXP 	practice_target_label_valence: autoDraw = False
+24.2357 	EXP 	ITI_text: autoDraw = True
+24.3218 	DATA 	Keypress: m
+25.2002 	EXP 	ITI_text: autoDraw = False
+25.2002 	EXP 	ITI_text: autoDraw = False
+25.2002 	EXP 	practice_feedback_text: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+25.2002 	EXP 	practice_feedback_text: height = 0.1
+25.2002 	EXP 	practice_feedback_text: height = 0.1
+25.2002 	EXP 	practice_feedback_text: height = 0.1
+25.2002 	EXP 	practice_feedback_text: text = 'Incorrect!'
+25.2002 	EXP 	practice_feedback_text: autoDraw = True
+25.6847 	EXP 	New trial (rep=0, index=10): {'Label': 'Self', 'Target': 'Friend', 'Shape': 'Friend', 'CorrectAnswer': 'No'}
+25.7332 	EXP 	practice_feedback_text: autoDraw = False
+25.7332 	EXP 	practice_target_label: height = 0.1
+25.7332 	EXP 	practice_target_label: height = 0.1
+25.7332 	EXP 	practice_target_label: height = 0.1
+25.7332 	EXP 	practice_target_label: text = 'Self'
+25.7332 	EXP 	practice_target_shape: image = 'Stimuli/S.bmp'
+25.7332 	EXP 	practice_target_label_valence: texRes = 128
+25.7332 	EXP 	practice_target_label_valence: image = 'Stimuli/Empty.bmp'
+25.7332 	EXP 	practice_target_label: autoDraw = True
+25.7332 	EXP 	practice_target_plus: autoDraw = True
+25.7332 	EXP 	practice_target_shape: autoDraw = True
+25.7332 	EXP 	practice_target_label_valence: autoDraw = True
+25.9826 	EXP 	practice_target_label: autoDraw = False
+25.9826 	EXP 	practice_target_plus: autoDraw = False
+25.9826 	EXP 	practice_target_shape: autoDraw = False
+25.9826 	EXP 	practice_target_label_valence: autoDraw = False
+26.2575 	DATA 	Keypress: m
+26.2661 	EXP 	practice_target_label: autoDraw = False
+26.2661 	EXP 	practice_target_plus: autoDraw = False
+26.2661 	EXP 	practice_target_shape: autoDraw = False
+26.2661 	EXP 	practice_target_label_valence: autoDraw = False
+26.2661 	EXP 	ITI_text: autoDraw = True
+27.4975 	EXP 	ITI_text: autoDraw = False
+27.4975 	EXP 	ITI_text: autoDraw = False
+27.4975 	EXP 	practice_feedback_text: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+27.4975 	EXP 	practice_feedback_text: text = 'Incorrect!'
+27.4975 	EXP 	practice_feedback_text: autoDraw = True
+27.9808 	EXP 	New trial (rep=0, index=11): {'Label': 'Self', 'Target': 'Self', 'Shape': 'Self', 'CorrectAnswer': 'Yes'}
+28.0136 	EXP 	practice_feedback_text: autoDraw = False
+28.0136 	EXP 	practice_feedback_text: autoDraw = False
+28.0136 	EXP 	practice_target_label: text = 'Self'
+28.0136 	EXP 	practice_target_shape: image = 'Stimuli/T.bmp'
+28.0136 	EXP 	practice_target_label_valence: texRes = 128
+28.0136 	EXP 	practice_target_label_valence: image = 'Stimuli/Empty.bmp'
+28.0136 	EXP 	practice_target_label: autoDraw = True
+28.0136 	EXP 	practice_target_plus: autoDraw = True
+28.0136 	EXP 	practice_target_shape: autoDraw = True
+28.0136 	EXP 	practice_target_label_valence: autoDraw = True
+28.0176 	DATA 	Keypress: m
+28.2629 	EXP 	practice_target_label: autoDraw = False
+28.2629 	EXP 	practice_target_plus: autoDraw = False
+28.2629 	EXP 	practice_target_shape: autoDraw = False
+28.2629 	EXP 	practice_target_label_valence: autoDraw = False
+30.1278 	EXP 	practice_target_label: autoDraw = False
+30.1278 	EXP 	practice_target_plus: autoDraw = False
+30.1278 	EXP 	practice_target_shape: autoDraw = False
+30.1278 	EXP 	practice_target_label_valence: autoDraw = False
+30.1278 	EXP 	ITI_text: autoDraw = True
+31.2753 	EXP 	ITI_text: autoDraw = False
+31.2753 	EXP 	ITI_text: autoDraw = False
+31.2753 	EXP 	practice_feedback_text: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+31.2753 	EXP 	practice_feedback_text: height = 0.1
+31.2753 	EXP 	practice_feedback_text: height = 0.1
+31.2753 	EXP 	practice_feedback_text: height = 0.1
+31.2753 	EXP 	practice_feedback_text: text = 'Too Slow!'
+31.2753 	EXP 	practice_feedback_text: autoDraw = True
+31.7755 	EXP 	practice_feedback_text: autoDraw = False
+31.7755 	EXP 	text_2: autoDraw = True
+32.0308 	DATA 	Keypress: m
+32.7737 	EXP 	Imported SelfTrialStim.xlsx as conditions, 12 conditions, 4 params
+32.7750 	EXP 	Created sequence: random, trialTypes=12, nReps=10, seed=None
+32.7755 	EXP 	New trial (rep=0, index=0): {'Label': 'Self', 'Target': 'Self', 'Shape': 'Self', 'CorrectAnswer': 'Yes'}
+32.8069 	EXP 	text_2: autoDraw = False
+32.8069 	EXP 	practice_target_label: text = 'Self'
+32.8069 	EXP 	practice_target_shape: image = 'Stimuli/T.bmp'
+32.8069 	EXP 	practice_target_label_valence: texRes = 128
+32.8069 	EXP 	practice_target_label_valence: image = 'Stimuli/Empty.bmp'
+32.8069 	EXP 	practice_target_label: autoDraw = True
+32.8069 	EXP 	practice_target_plus: autoDraw = True
+32.8069 	EXP 	practice_target_shape: autoDraw = True
+32.8069 	EXP 	practice_target_label_valence: autoDraw = True
+33.0568 	EXP 	practice_target_label: autoDraw = False
+33.0568 	EXP 	practice_target_plus: autoDraw = False
+33.0568 	EXP 	practice_target_shape: autoDraw = False
+33.0568 	EXP 	practice_target_label_valence: autoDraw = False
+33.2985 	DATA 	Keypress: m
+33.3069 	EXP 	practice_target_label: autoDraw = False
+33.3069 	EXP 	practice_target_plus: autoDraw = False
+33.3069 	EXP 	practice_target_shape: autoDraw = False
+33.3069 	EXP 	practice_target_label_valence: autoDraw = False
+33.3069 	EXP 	ITI_text: autoDraw = True
+34.3888 	EXP 	ITI_text: autoDraw = False
+34.3888 	EXP 	ITI_text: autoDraw = False
+34.3888 	EXP 	practice_feedback_text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+34.3888 	EXP 	practice_feedback_text: height = 0.1
+34.3888 	EXP 	practice_feedback_text: height = 0.1
+34.3888 	EXP 	practice_feedback_text: height = 0.1
+34.3888 	EXP 	practice_feedback_text: text = 'Correct!'
+34.3888 	EXP 	practice_feedback_text: autoDraw = True
+34.9200 	EXP 	practice_feedback_text: autoDraw = False
+34.9200 	EXP 	text_7: height = 0.05
+34.9200 	EXP 	text_7: height = 0.05
+34.9200 	EXP 	text_7: height = 0.05
+34.9200 	EXP 	text_7: text = 'You have used 0 attempts'
+34.9200 	EXP 	text_3: height = 0.05
+34.9200 	EXP 	text_3: height = 0.05
+34.9200 	EXP 	text_3: height = 0.05
+34.9200 	EXP 	text_3: text = [1]
+34.9200 	EXP 	text_4: height = 0.05
+34.9200 	EXP 	text_4: height = 0.05
+34.9200 	EXP 	text_4: height = 0.05
+34.9200 	EXP 	text_4: text = 'Accuracy per trial in the current window is\nNot available until you have done 10 trials'
+34.9200 	EXP 	text_7: autoDraw = True
+34.9200 	EXP 	text_3: autoDraw = True
+34.9200 	EXP 	text_4: autoDraw = True
+35.3917 	EXP 	window1: mouseVisible = True
